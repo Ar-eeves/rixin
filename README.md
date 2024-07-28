@@ -1,2 +1,54 @@
-# rixin
-A pentesting toolkit created for a summer project.
+# Rixin
+
+Rixin is a collection of tools created as a summer project. It was created and tested on windows, tools will work on other OS' but may have bugs.
+
+## Features
+
+- Gmail SMTP Sender: The SMTP sender is able to send emails to a selected email adress from a gmail account with a valid app password. After running it will create the needed folders including templates and logins. Store your selected login details in the format 'email@gmail.com:app_password' in a text document in the logins folder and the tool will give you the ability to login.
+
+- Qr-Code Generator: The Qr-Code generator uses pythons 'qrcode' library to generate a qr-code to a selected URL. It gives the user the ability to save the new image to a default folder or a selected folder.
+
+- Discord Webhook Sender: Enter a discord webhook URL and send messages through it using pythons 'discord_webhook' library. You can specify the amount of times to send the message.
+
+## Usage
+
+Rixin has two versions:
+1. Standalone version: All of the tools are in one python file.
+2. Modular version: Each tool is in its own folder allowing for easier editing.
+
+To use the standalone version run:
+```bash
+cd Rixin-Standalone
+python rixin_standalone.py
+```
+To use the Modular version either run:
+```bash
+cd Rixin-Modules
+python RIXIN.py
+```
+Or enter the specific directory for each tool and run its own python file e.g:
+```bash
+python QRGEN.py
+python SMTP.py
+python WEBHOOK.py
+```
+
+## Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue if you have suggestions or find bugs.
+
+## License
+This project is licensed under the GPL v3 License - see the LICENSE file for details.
+
+## Acknowledgments
+Created by Areeves.
+More modules will probably be added if I feel like it.
+
+## Installation
+
+To get started with Rixin, clone this repository and install the necessary dependencies.
+
+```bash
+git clone https://github.com/Ar-eeves/rixin.git
+cd rixin
+pip install -r requirements.txt
+```
