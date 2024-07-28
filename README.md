@@ -41,7 +41,7 @@ This project is licensed under the GPL v3 License - see the LICENSE file for det
 
 ## Acknowledgments
 Created by Areeves.
-More modules will probably be added if I feel like it.
+Just a student looking for something to do.
 
 ## Installation
 
