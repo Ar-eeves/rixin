@@ -8,8 +8,6 @@ import shutil
 import time
 import qrcode
 import threading
-import subprocess
-import platform
 from discord_webhook import DiscordWebhook
 
 #todo
