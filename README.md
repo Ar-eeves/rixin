@@ -2,6 +2,10 @@
 
 Rixin is a collection of tools created as a summer project. It was created and tested on windows, tools will work on other OS' but may have bugs. Either version will generate new folders in the directory to allow for things like templates and storing details.
 
+## Screenshots
+![rixin](https://github.com/user-attachments/assets/a742a7ca-acd3-4cbd-8796-96ba070c8b99)
+![ModulePreview](https://github.com/user-attachments/assets/b2dcd7e7-69ae-4d6c-bc6d-cd1b47a0d0c8)
+
 ## Features
 
 - Gmail SMTP Sender: The SMTP sender is able to send emails to a selected email adress from a gmail account with a valid app password. After running it will create the needed folders including templates and logins. Store your selected login details in the format 'email@gmail.com:app_password' in a text document in the logins folder and the tool will give you the ability to login.
