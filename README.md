@@ -15,15 +15,8 @@ Rixin is a collection of tools created as a summer project. It was created and t
 
 ## Usage
 
-Rixin has two versions:
-1. Standalone version: All of the tools are in one python file.
-2. Modular version: Each tool is in its own folder allowing for easier editing.
+The Modular version: Each tool is in its own folder allowing for easier editing and better running on machines.
 
-To use the standalone version run:
-```bash
-cd Rixin-Standalone
-python rixin_standalone.py
-```
 To use the Modular version either run:
 ```bash
 cd Rixin-Modules
