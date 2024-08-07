@@ -1,6 +1,6 @@
 # Rixin
 
-Rixin is a collection of tools created as a summer project. It was created and tested on windows, tools will work on other OS' but may have bugs. Either version will generate new folders in the directory to allow for things like templates and storing details.
+Rixin is a collection of tools created as a summer project. It was created and tested on Windows, any maching with python and the correct librarys should work but it may have bugs. Once run the program will generate new folders in the directory to allow for things like templates and storing details.
 
 ## Preview
 ![ModulePreview](https://github.com/user-attachments/assets/b2dcd7e7-69ae-4d6c-bc6d-cd1b47a0d0c8)
