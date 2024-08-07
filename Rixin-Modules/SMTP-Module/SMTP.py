@@ -184,12 +184,13 @@ def GMAIL_SMTP():
         script_dir = os.path.dirname(os.path.abspath(__file__))
 
         recent_file = os.path.join(script_dir, "Logins", "Recent.txt")
-        LastLogin = open(recent_file).read()
-
-        if not os.path.exists(recent_file):
+        if not os.path.exists(recent_file): # Recent file check
             with open(recent_file, "w") as f:
                 pass  
             print(RED + f"Created missing file: {recent_file}" + RESET)
+            
+        LastLogin = open(recent_file).read()
+
 
 
 
@@ -239,7 +240,7 @@ def GMAIL_SMTP():
             else:
                 user = input("Enter your Gmail address: ")
                 password = getpass("Enter your app password: ")
-                with open(os.path.join(script_dir, "Logins", "recent.txt"), "w") as f:
+                with open(os.path.join(script_dir, "Logins", "Recent.txt"), "w") as f:
                     f.write(user+":"+password)
         recipient = input("Enter recipient email: ")
         use_template = input("Do you want to use an email template? (yes/no): ").strip().lower() == 'yes'
